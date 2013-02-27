@@ -1,0 +1,80 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="ServerNameOpenMRS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CnnOpenMRS</Value>
+    </Setting>
+    <Setting Name="DataBaseNameOpenMRS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">openmrs</Value>
+    </Setting>
+    <Setting Name="UserIDOpenMRS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">root</Value>
+    </Setting>
+    <Setting Name="DefaultProvinceID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">04</Value>
+    </Setting>
+    <Setting Name="DataBaseNameReporting" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">openmrsreporting</Value>
+    </Setting>
+    <Setting Name="ServerNameReporting" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">OpenMRSReporting</Value>
+    </Setting>
+    <Setting Name="ODBCOpenMRSReporting" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Dsn=OpenMRSReporting&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.Odbc&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Dsn=OpenMRSReporting</Value>
+    </Setting>
+    <Setting Name="DefaultLanguageID" Type="System.Int16" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="PepFarReportID" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="MisauReportID" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="DPSCafeTARVReportID" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="OldMonthlyReportID" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="OldWeeklyReportID" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="PTVCCRMensal" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">6</Value>
+    </Setting>
+    <Setting Name="PTVPreNatalMensal" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="PTVMaternidadeMensal" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="PasswordOpenMRS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dm2007misau</Value>
+    </Setting>
+    <Setting Name="DefaultDistrictID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0406</Value>
+    </Setting>
+    <Setting Name="DefaultHddID" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="DefaultHddNID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">04060101</Value>
+    </Setting>
+    <Setting Name="ConnectionStringOpenMRS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Database=openmrs;Uid=root;Pwd=dm2007misau;Server=localhost;port=3306;default command timeout=9999;Connection Timeout=9999</Value>
+    </Setting>
+    <Setting Name="ConnectionStringOpenMRSReporting" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Database=openmrsreporting;Uid=root;Pwd=dm2007misau;Server=localhost;port=3306;default command timeout=9999;Connection Timeout=9999</Value>
+    </Setting>
+    <Setting Name="DefaultUSName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hospital Distrital do Ile</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,242 @@
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\ResolveAssemblyReference.cache
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmRelatorioMensal.resources
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.Resources.resources
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.vbproj.GenerateResource.Cache
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\OpenMRSReporting.exe.config
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\OpenMRSReporting.exe
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\OpenMRSReporting.pdb
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\OpenMRSReporting.xml
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\MySql.Data.dll
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmPrintReports.resources
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.exe
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.xml
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.pdb
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmMain.resources
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmSelectHDD.resources
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmPacientesFalecidosFridaNaoBD.resources
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmPacienteFridaSemInicioTarv.resources
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmConsultasSemObservacoes.resources
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmAbandonoFaltoso.resources
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmLogin.resources
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmPacientesVemLevantar.resources
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmRelatorioSemanal.resources
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmIndicadoresSemanaisManuais.resources
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmGeneralPrintReport.resources
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmEstadioHIV.resources
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.vbproj.ResolveComReference.cache
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmCD4Paciente.resources
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmListaLevantamento.resources
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmMaisDeUmaConsultaFrida.resources
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\CrystalDecisions.Shared.dll
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\System.Core.dll
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\System.Data.dll
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\System.dll
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\System.Drawing.dll
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\System.Windows.Forms.dll
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\System.Xml.dll
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\System.Xml.Linq.dll
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\CrystalDecisions.CrystalReports.Engine.xml
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\CrystalDecisions.ReportSource.xml
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\CrystalDecisions.Windows.Forms.xml
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\CrystalDecisions.Shared.xml
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmptv.resources
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmRelatorioSemanalNovo.resources
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmFaltosos.resources
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmDuploInicioTARV.resources
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\bin\Debug\OpenMRSReporting.exe.config
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.vbproj.ResolveComReference.cache
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.exe
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.xml
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.pdb
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\bin\Debug\OpenMRSReporting.exe
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\bin\Debug\CrystalDecisions.Shared.dll
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\bin\Debug\MySql.Data.dll
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\bin\Debug\System.Core.dll
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\bin\Debug\System.Data.dll
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\bin\Debug\System.dll
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\bin\Debug\System.Drawing.dll
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\bin\Debug\System.Windows.Forms.dll
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\bin\Debug\System.Xml.dll
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\bin\Debug\System.Xml.Linq.dll
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\bin\Debug\CrystalDecisions.CrystalReports.Engine.xml
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\bin\Debug\CrystalDecisions.ReportSource.xml
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\bin\Debug\CrystalDecisions.Windows.Forms.xml
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\bin\Debug\CrystalDecisions.Shared.xml
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\ResolveAssemblyReference.cache
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmFaltosos.resources
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmAbandonoFaltoso.resources
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmCD4Paciente.resources
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmConsultasSemObservacoes.resources
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmDuploInicioTARV.resources
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmEstadioHIV.resources
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmGeneralPrintReport.resources
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmIndicadoresSemanaisManuais.resources
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmListaLevantamento.resources
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmMain.resources
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmMaisDeUmaConsultaFrida.resources
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmPacienteFridaSemInicioTarv.resources
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmPacientesFalecidosFridaNaoBD.resources
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmPacientesVemLevantar.resources
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmPrintReports.resources
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmptv.resources
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmRelatorioMensal.resources
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmRelatorioSemanal.resources
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmRelatorioSemanalNovo.resources
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmSelectHDD.resources
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmLogin.resources
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.Resources.resources
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\obj\Debug\OpenMRSReporting.vbproj.GenerateResource.Cache
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\bin\Debug\OpenMRSReporting.pdb
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\bin\Debug\OpenMRSReporting.xml
+C:\VS2008\SOURCECODES\OpenMRSRep\OpenMRSReporting\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmExpressObs.resources
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmPacientesSemCD4Mais6Meses.resources
+C:\VS2008\SOURCECODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmTransferencia.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\OpenMRSReporting.exe.config
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.exe
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.xml
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.pdb
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\OpenMRSReporting.exe
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\OpenMRSReporting.pdb
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\OpenMRSReporting.xml
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\CrystalDecisions.Shared.dll
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\System.Core.dll
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\System.Data.dll
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\System.dll
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\System.Drawing.dll
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\System.Windows.Forms.dll
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\System.Xml.dll
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\System.Xml.Linq.dll
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\CrystalDecisions.CrystalReports.Engine.xml
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\CrystalDecisions.ReportSource.xml
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\CrystalDecisions.Windows.Forms.xml
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\CrystalDecisions.Shared.xml
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\ResolveAssemblyReference.cache
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmFaltosos.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmAbandonoFaltoso.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmCD4Paciente.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmConsultasSemObservacoes.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmDuploInicioTARV.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmEstadioHIV.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmExpressObs.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmGeneralPrintReport.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmIndicadoresSemanaisManuais.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmListaLevantamento.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmMain.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmMaisDeUmaConsultaFrida.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmPacienteFridaSemInicioTarv.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmPacientesFalecidosFridaNaoBD.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmPacientesSemCD4Mais6Meses.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmPacientesVemLevantar.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmPrintReports.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmptv.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmRelatorioMensal.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmRelatorioSemanal.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmRelatorioSemanalNovo.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmSelectHDD.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmTransferencia.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmLogin.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.Resources.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.vbproj.GenerateResource.Cache
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmSarcomaKaposi.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmMaisDeUmAnoSemVisita.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmColheitaCD4.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmColheitaPCR.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmGravidas.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\mysql.data.dll
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmProfilaxia.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmAdmissaoServicoTARV.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmMovimentoFRIDA.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmCohoortPeriodico.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmConsultas.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmPreferidos.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmContinuationReport.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmCoorteTARV.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmSESP.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmAnularConsulta.resources
+C:\VS2008\SOURCE CODES\OpenMRSReporting\OpenMRSReporting\obj\Debug\OpenMRSReporting.frmBuscaActiva.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\OpenMRSReporting.exe.config
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\OpenMRSReporting.exe
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\OpenMRSReporting.pdb
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\OpenMRSReporting.xml
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\CrystalDecisions.Shared.dll
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\System.Core.dll
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\System.Data.dll
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\System.dll
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\System.Drawing.dll
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\System.Windows.Forms.dll
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\System.Xml.dll
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\System.Xml.Linq.dll
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\office.dll
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\CrystalDecisions.CrystalReports.Engine.xml
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\CrystalDecisions.Windows.Forms.xml
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\CrystalDecisions.Shared.xml
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\office.xml
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\bin\Debug\CrystalDecisions.ReportSource.xml
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmFaltosos.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmAbandonoFaltoso.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmAdmissaoServicoTARV.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmAnularConsulta.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmBuscaActiva.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmCD4Paciente.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmCohoortPeriodico.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmColheitaCD4.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmColheitaPCR.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmConsultas.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmConsultasSemObservacoes.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmContinuationReport.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmCoorteTARV.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmDuploInicioTARV.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmEstadioHIV.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmExpressObs.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmGeneralPrintReport.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmGravidas.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmIndicadoresSemanaisManuais.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmListaLevantamento.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmMain.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmMaisDeUmaConsultaFrida.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmMaisDeUmAnoSemVisita.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmMovimentoFRIDA.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmPacienteFridaSemInicioTarv.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmPacientesFalecidosFridaNaoBD.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmPacientesVemLevantar.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmPreferidos.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmPrintReports.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmProfilaxia.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmptv.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmRelatorioMensal.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmRelatorioSemanal.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmRelatorioSemanalNovo.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmSarcomaKaposi.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmSelectHDD.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmSESP.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmTransferencia.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmLogin.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.Resources.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.vbproj.GenerateResource.Cache
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.exe
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.xml
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.pdb
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmPacientesInicioNaoCoincideLev.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmPacientesInicioSemFila.resources
+C:\dev\local\visualstudio\projects\OpenMRSReporting\src\obj\Debug\OpenMRSReporting.frmPacientesSairamEmSeguimento.resources

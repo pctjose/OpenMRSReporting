@@ -1,0 +1,1020 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D9970538-B121-4DC3-8DE9-CB06FABE6B2D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>OpenMRSReporting.My.MyApplication</StartupObject>
+    <RootNamespace>OpenMRSReporting</RootNamespace>
+    <AssemblyName>OpenMRSReporting</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationIcon>BOOK01B.ICO</ApplicationIcon>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>OpenMRSReporting.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>OpenMRSReporting.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="mysql.data, Version=6.2.1.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Tools\MySQL Connector 6\mysql.data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseVO\BaseVO.vb" />
+    <Compile Include="forms\Busca Activa\frmFaltosos.Designer.vb">
+      <DependentUpon>frmFaltosos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Busca Activa\frmFaltosos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmPacientesInicioNaoCoincideLev.Designer.vb">
+      <DependentUpon>frmPacientesInicioNaoCoincideLev.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmPacientesInicioNaoCoincideLev.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmPacientesInicioSemFila.Designer.vb">
+      <DependentUpon>frmPacientesInicioSemFila.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmPacientesInicioSemFila.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmPacientesSairamEmSeguimento.Designer.vb">
+      <DependentUpon>frmPacientesSairamEmSeguimento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmPacientesSairamEmSeguimento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmAbandonoFaltoso.Designer.vb">
+      <DependentUpon>frmAbandonoFaltoso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmAbandonoFaltoso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmAdmissaoServicoTARV.Designer.vb">
+      <DependentUpon>frmAdmissaoServicoTARV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmAdmissaoServicoTARV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmAnularConsulta.Designer.vb">
+      <DependentUpon>frmAnularConsulta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmAnularConsulta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmBuscaActiva.Designer.vb">
+      <DependentUpon>frmBuscaActiva.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmBuscaActiva.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmCD4Paciente.Designer.vb">
+      <DependentUpon>frmCD4Paciente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmCD4Paciente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmCohoortPeriodico.Designer.vb">
+      <DependentUpon>frmCohoortPeriodico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmCohoortPeriodico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmColheitaCD4.Designer.vb">
+      <DependentUpon>frmColheitaCD4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmColheitaCD4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmColheitaPCR.Designer.vb">
+      <DependentUpon>frmColheitaPCR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmColheitaPCR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmConsultas.Designer.vb">
+      <DependentUpon>frmConsultas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmConsultas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmConsultasSemObservacoes.Designer.vb">
+      <DependentUpon>frmConsultasSemObservacoes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmConsultasSemObservacoes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmContinuationReport.Designer.vb">
+      <DependentUpon>frmContinuationReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmContinuationReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmCoorteTARV.Designer.vb">
+      <DependentUpon>frmCoorteTARV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmCoorteTARV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmDuploInicioTARV.Designer.vb">
+      <DependentUpon>frmDuploInicioTARV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmDuploInicioTARV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmEstadioHIV.Designer.vb">
+      <DependentUpon>frmEstadioHIV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmEstadioHIV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmExpressObs.Designer.vb">
+      <DependentUpon>frmExpressObs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmExpressObs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmGeneralPrintReport.Designer.vb">
+      <DependentUpon>frmGeneralPrintReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmGeneralPrintReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmGravidas.Designer.vb">
+      <DependentUpon>frmGravidas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmGravidas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmIndicadoresSemanaisManuais.Designer.vb">
+      <DependentUpon>frmIndicadoresSemanaisManuais.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmIndicadoresSemanaisManuais.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmListaLevantamento.Designer.vb">
+      <DependentUpon>frmListaLevantamento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmListaLevantamento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmMaisDeUmaConsultaFrida.Designer.vb">
+      <DependentUpon>frmMaisDeUmaConsultaFrida.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmMaisDeUmaConsultaFrida.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmMaisDeUmAnoSemVisita.Designer.vb">
+      <DependentUpon>frmMaisDeUmAnoSemVisita.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmMaisDeUmAnoSemVisita.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmMovimentoFRIDA.Designer.vb">
+      <DependentUpon>frmMovimentoFRIDA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmMovimentoFRIDA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmPacienteFridaSemInicioTarv.Designer.vb">
+      <DependentUpon>frmPacienteFridaSemInicioTarv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmPacienteFridaSemInicioTarv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmPacientesFalecidosFridaNaoBD.Designer.vb">
+      <DependentUpon>frmPacientesFalecidosFridaNaoBD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmPacientesFalecidosFridaNaoBD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmPacientesVemLevantar.Designer.vb">
+      <DependentUpon>frmPacientesVemLevantar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmPacientesVemLevantar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmPreferidos.Designer.vb">
+      <DependentUpon>frmPreferidos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmPreferidos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmPrintReports.Designer.vb">
+      <DependentUpon>frmPrintReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmPrintReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmProfilaxia.Designer.vb">
+      <DependentUpon>frmProfilaxia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmProfilaxia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmptv.Designer.vb">
+      <DependentUpon>frmptv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmptv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmRelatorioMensal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmRelatorioMensal.Designer.vb">
+      <DependentUpon>frmRelatorioMensal.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmRelatorioSemanal.Designer.vb">
+      <DependentUpon>frmRelatorioSemanal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmRelatorioSemanal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmRelatorioSemanalNovo.Designer.vb">
+      <DependentUpon>frmRelatorioSemanalNovo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmRelatorioSemanalNovo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmSarcomaKaposi.Designer.vb">
+      <DependentUpon>frmSarcomaKaposi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmSarcomaKaposi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmSelectHDD.Designer.vb">
+      <DependentUpon>frmSelectHDD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmSelectHDD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmSESP.Designer.vb">
+      <DependentUpon>frmSESP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmSESP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmTransferencia.Designer.vb">
+      <DependentUpon>frmTransferencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmTransferencia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\login\frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\login\frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frequency\FrequencyDAO.vb" />
+    <Compile Include="Frequency\FrequencyVO.vb" />
+    <Compile Include="HDD\HddDAO.vb" />
+    <Compile Include="HDD\HddVO.vb" />
+    <Compile Include="IndicatorGroup\IndicatorGroupDAO.vb" />
+    <Compile Include="IndicatorGroup\IndicatorGroupVO.vb" />
+    <Compile Include="Indicators\IndicatorDAO.vb" />
+    <Compile Include="Indicators\IndicatorVO.vb" />
+    <Compile Include="Language\LanguageDAO.vb" />
+    <Compile Include="Language\LanguageVO.vb" />
+    <Compile Include="MISAU_MONTHLY\MMReportDAO.vb" />
+    <Compile Include="MISAU_MONTHLY\MMReportVO.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Program\ProgramDAO.vb" />
+    <Compile Include="Program\ProgramVO.vb" />
+    <Compile Include="PTV\PTVDAO.vb" />
+    <Compile Include="ReportPrint\ReportPrintDAO.vb" />
+    <Compile Include="reports\BuscaActiva\BuscaActivaTARV.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BuscaActivaTARV.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\CD4\CD4.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CD4.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\ConsultasAntesDataAbertura.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConsultasAntesDataAbertura.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\ConsultasAntesDataAberturaODBC.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConsultasAntesDataAberturaODBC.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\ConsultasSemObservacoes.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConsultasSemObservacoes.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\RelatorioMensaNovo.vb">
+      <DependentUpon>RelatorioMensaNovo.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\Estadio\EstadioHIV.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EstadioHIV.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\frida\AbandonosNotificados.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AbandonosNotificados.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\frida\ConsultasFridaMesmaData.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConsultasFridaMesmaData.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\frida\DuploInicioTarv.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DuploInicioTarv.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\frida\faltaAbandono.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>faltaAbandono.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\frida\fridalista.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fridalista.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\frida\PacientesComDuasDatasInicioTARV.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PacientesComDuasDatasInicioTARV.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\frida\pacientesEmTarv.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pacientesEmTarv.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\frida\PacientesVemLavantarMedicamento.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PacientesVemLavantarMedicamento.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\frida\rptFaltososBuscaActiva.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptFaltososBuscaActiva.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\frida\rptPacientetarv.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPacientetarv.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\Indicadores\Indicadores.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Indicadores.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\Indicadores\IndicadorSemanalNovo.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IndicadorSemanalNovo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\Indicadores\IndicadorSemanalNovoLands.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IndicadorSemanalNovoLands.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\Indicadores\IndicadorSemanalOrder.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IndicadorSemanalOrder.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\MonthlyReport.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MonthlyReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\PacientesFalecidosFridaNaoBD.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PacientesFalecidosFridaNaoBD.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\PacientesFalecidosFridaNaoBDODBC.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PacientesFalecidosFridaNaoBDODBC.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\PacientesFridaSemIniciarTarv.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PacientesFridaSemIniciarTarv.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\PacientesFridaSemIniciarTarvODBC.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PacientesFridaSemIniciarTarvODBC.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\PTV\PTVCCR.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PTVCCR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\PTV\PTVConsultaPreNatal.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PTVConsultaPreNatal.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\PTV\PTVMaternidade.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PTVMaternidade.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\RelatorioMensal.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RelatorioMensal.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\RelatorioMensalTeste.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RelatorioMensalTeste.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\rptTransferencia.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTransferencia.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\tstneewstructure.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tstneewstructure.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportPrint\ReportPrintVO.vb" />
+    <Compile Include="reports\uats.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>uats.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\Validacoes\ConsultasDataInconsistentes.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConsultasDataInconsistentes.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\Validacoes\DataRetornoInconsistente.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataRetornoInconsistente.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportType\ReportTypeDAO.vb" />
+    <Compile Include="ReportType\ReportTypeVO.vb" />
+    <Compile Include="Report\ReportDAO.vb" />
+    <Compile Include="Report\ReportVO.vb" />
+    <Compile Include="Semanal\RelatorioSemanalDAO.vb" />
+    <Compile Include="Users\UserDAO.vb" />
+    <Compile Include="Users\UserVO.vb" />
+    <Compile Include="utils\Connexao.vb" />
+    <Compile Include="utils\printReport.vb" />
+    <Compile Include="utils\Utilitario.vb" />
+    <Compile Include="ValidarDAO\DAOVALIDATOR.vb" />
+    <Compile Include="Weekly\WeeklyVO.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="forms\Busca Activa\frmFaltosos.resx">
+      <DependentUpon>frmFaltosos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmPacientesInicioNaoCoincideLev.resx">
+      <DependentUpon>frmPacientesInicioNaoCoincideLev.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmPacientesInicioSemFila.resx">
+      <DependentUpon>frmPacientesInicioSemFila.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmPacientesSairamEmSeguimento.resx">
+      <DependentUpon>frmPacientesSairamEmSeguimento.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmAbandonoFaltoso.resx">
+      <DependentUpon>frmAbandonoFaltoso.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmAdmissaoServicoTARV.resx">
+      <DependentUpon>frmAdmissaoServicoTARV.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmAnularConsulta.resx">
+      <DependentUpon>frmAnularConsulta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmBuscaActiva.resx">
+      <DependentUpon>frmBuscaActiva.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmCD4Paciente.resx">
+      <DependentUpon>frmCD4Paciente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmCohoortPeriodico.resx">
+      <DependentUpon>frmCohoortPeriodico.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmColheitaCD4.resx">
+      <DependentUpon>frmColheitaCD4.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmColheitaPCR.resx">
+      <DependentUpon>frmColheitaPCR.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmConsultas.resx">
+      <DependentUpon>frmConsultas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmConsultasSemObservacoes.resx">
+      <DependentUpon>frmConsultasSemObservacoes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmContinuationReport.resx">
+      <DependentUpon>frmContinuationReport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmCoorteTARV.resx">
+      <DependentUpon>frmCoorteTARV.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmDuploInicioTARV.resx">
+      <DependentUpon>frmDuploInicioTARV.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmEstadioHIV.resx">
+      <DependentUpon>frmEstadioHIV.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmExpressObs.resx">
+      <DependentUpon>frmExpressObs.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmGeneralPrintReport.resx">
+      <DependentUpon>frmGeneralPrintReport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmGravidas.resx">
+      <DependentUpon>frmGravidas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmIndicadoresSemanaisManuais.resx">
+      <DependentUpon>frmIndicadoresSemanaisManuais.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmListaLevantamento.resx">
+      <DependentUpon>frmListaLevantamento.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmMaisDeUmaConsultaFrida.resx">
+      <DependentUpon>frmMaisDeUmaConsultaFrida.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmMaisDeUmAnoSemVisita.resx">
+      <DependentUpon>frmMaisDeUmAnoSemVisita.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmMovimentoFRIDA.resx">
+      <DependentUpon>frmMovimentoFRIDA.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmPacienteFridaSemInicioTarv.resx">
+      <DependentUpon>frmPacienteFridaSemInicioTarv.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmPacientesFalecidosFridaNaoBD.resx">
+      <DependentUpon>frmPacientesFalecidosFridaNaoBD.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmPacientesVemLevantar.resx">
+      <DependentUpon>frmPacientesVemLevantar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmPreferidos.resx">
+      <DependentUpon>frmPreferidos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmPrintReports.resx">
+      <DependentUpon>frmPrintReports.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmProfilaxia.resx">
+      <DependentUpon>frmProfilaxia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmptv.resx">
+      <DependentUpon>frmptv.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmRelatorioMensal.resx">
+      <DependentUpon>frmRelatorioMensal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmRelatorioSemanal.resx">
+      <DependentUpon>frmRelatorioSemanal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmRelatorioSemanalNovo.resx">
+      <DependentUpon>frmRelatorioSemanalNovo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmSarcomaKaposi.resx">
+      <DependentUpon>frmSarcomaKaposi.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmSelectHDD.resx">
+      <DependentUpon>frmSelectHDD.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmSESP.resx">
+      <DependentUpon>frmSESP.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmTransferencia.resx">
+      <DependentUpon>frmTransferencia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\login\frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\BuscaActiva\BuscaActivaTARV.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BuscaActivaTARV.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\CD4\CD4.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CD4.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\ConsultasAntesDataAbertura.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ConsultasAntesDataAbertura.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\ConsultasAntesDataAberturaODBC.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ConsultasAntesDataAberturaODBC.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\ConsultasSemObservacoes.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ConsultasSemObservacoes.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\RelatorioMensaNovo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RelatorioMensaNovo.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\Estadio\EstadioHIV.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EstadioHIV.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\frida\AbandonosNotificados.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AbandonosNotificados.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\frida\ConsultasFridaMesmaData.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ConsultasFridaMesmaData.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\frida\DuploInicioTarv.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DuploInicioTarv.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\frida\faltaAbandono.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>faltaAbandono.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\frida\fridalista.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>fridalista.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\frida\PacientesComDuasDatasInicioTARV.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PacientesComDuasDatasInicioTARV.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\frida\pacientesEmTarv.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>pacientesEmTarv.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\frida\PacientesVemLavantarMedicamento.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PacientesVemLavantarMedicamento.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\frida\rptFaltososBuscaActiva.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptFaltososBuscaActiva.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\frida\rptPacientetarv.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPacientetarv.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\Indicadores\Indicadores.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Indicadores.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\Indicadores\IndicadorSemanalNovo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>IndicadorSemanalNovo.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\Indicadores\IndicadorSemanalNovoLands.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>IndicadorSemanalNovoLands.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\Indicadores\IndicadorSemanalOrder.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>IndicadorSemanalOrder.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\MonthlyReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MonthlyReport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\PacientesFalecidosFridaNaoBD.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PacientesFalecidosFridaNaoBD.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\PacientesFalecidosFridaNaoBDODBC.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PacientesFalecidosFridaNaoBDODBC.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\PacientesFridaSemIniciarTarv.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PacientesFridaSemIniciarTarv.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\PacientesFridaSemIniciarTarvODBC.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PacientesFridaSemIniciarTarvODBC.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\PTV\PTVCCR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PTVCCR.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\PTV\PTVConsultaPreNatal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PTVConsultaPreNatal.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\PTV\PTVMaternidade.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PTVMaternidade.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\RelatorioMensal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RelatorioMensal.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\RelatorioMensalTeste.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RelatorioMensalTeste.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\rptTransferencia.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTransferencia.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\tstneewstructure.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>tstneewstructure.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\uats.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>uats.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\Validacoes\ConsultasDataInconsistentes.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ConsultasDataInconsistentes.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\Validacoes\DataRetornoInconsistente.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DataRetornoInconsistente.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SQL\FillProcessoTarvTable.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BOOK01B.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="BusinessObjects.CrystalReports.10.5">
+      <Visible>False</Visible>
+      <ProductName>Crystal Reports Basic for Visual Studio 2008 %28x86, x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.ReportViewer.8.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Visual Studio 2008 Report Viewer</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.VSTORuntime.3.0">
+      <Visible>False</Visible>
+      <ProductName>Visual Studio Tools for the Office system 3.0 Runtime</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\DataSources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
